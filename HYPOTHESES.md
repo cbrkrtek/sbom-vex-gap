@@ -23,3 +23,10 @@ Refuted it, if points differ even here (then the method itself is suspect).
 
 ## Not claimed
 Anything about other ecosystems, other scanners, or other VEX formats.
+
+## Disclosure
+- All CVEs used in this lab are already public (NVD / GitHub Advisory Database).
+- Payloads are harmless markers; no working exploit code is published.
+- A new vulnerability found in Petclinic or in a tool used here is reported
+  privately to its maintainers first (e.g. https://spring.io/security-policy
+  for Spring projects) and is NOT published in this repo until fixed.
