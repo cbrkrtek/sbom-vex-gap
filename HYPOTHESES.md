@@ -30,3 +30,11 @@ Anything about other ecosystems, other scanners, or other VEX formats.
 - A new vulnerability found in Petclinic or in a tool used here is reported
   privately to its maintainers first (e.g. https://spring.io/security-policy
   for Spring projects) and is NOT published in this repo until fixed.
+
+## Amendment 2026-10-28 (after screening, before experiment runs)
+Screening showed: source SBOM from `dir:.` contains non-application entries
+(GitHub Actions, gradle-wrapper) and components with version UNKNOWN.
+Consequences for H1:
+- Comparison is done on normalized keys (group:artifact), versions separately.
+- H1 is split: H1a (component set differs) and H1b (source SBOM lacks versions,
+  so the scanner cannot match). Both must be tested separately.
