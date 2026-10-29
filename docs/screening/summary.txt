@@ -1,0 +1,11 @@
+A source components=42 cves=0
+A build components=94 cves=17
+B source components=37 cves=0
+B build NO SBOM
+C source components=25 cves=0
+C build components=85 cves=131
+D source components=19 cves=6
+D build NO SBOM
+--- problems ---
+/home/user/screening/B.log:BUILD FAILED
+/home/user/screening/D.log:BUILD FAILED
