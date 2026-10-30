@@ -13,6 +13,7 @@ secrets/
 
 sbom/*.json
 results/*.json
+results/e1/*.json
 *.log
 
 
@@ -32,3 +33,4 @@ build/
 __pycache__/
 *.pyc
 .venv/
+results/e1/*.json
