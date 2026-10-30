@@ -83,4 +83,8 @@ unsorted input. Do not interpret these numbers.
 6. Grype DB date: record it in a rerun (update DB, status, then scan).
 
 ## Decision
-Pending. Pin the commit hash in versions.env after questions 2-6 are answered.
+Selected: A, commit 500158f732419217507c7656904b8e6aa1bcc0d6 (hash from git log).
+Chosen by the author's decision: most recent code, 17 CVEs on the build SBOM
+in screening. Criterion item 3 (CVE in a transitive dependency) and open
+questions 2-6 were NOT answered before the choice; they are answered during
+the experiments.
