@@ -38,3 +38,14 @@ Consequences for H1:
 - Comparison is done on normalized keys (group:artifact), versions separately.
 - H1 is split: H1a (component set differs) and H1b (source SBOM lacks versions,
   so the scanner cannot match). Both must be tested separately.
+
+## Amendment 2026-10-30 (before any VEX run)
+Added after the experiment design was refined. No VEX has been written or
+scanned yet.
+
+## H5. Grype applies a VEX document regardless of its signature
+Grype's result with `--vex` is the same for a signed and an unsigned VEX
+document, all else equal.
+Refuted if: the findings differ between the signed and the unsigned run.
+(Whether Grype checks signatures on VEX documents at all: not yet read in
+the documentation.)
