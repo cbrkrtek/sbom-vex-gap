@@ -1,0 +1,6 @@
+grype db status
+Path:      /home/user/.cache/grype/db/6/vulnerability.db
+Schema:    v6.1.10
+Built:     2026-10-28T06:23:30Z
+From:      https://grype.anchore.io/databases/v6/vulnerability-db_v6.1.10_2026-10-28T00:24:28Z_1793168610.tar.zst?checksum=sha256%3Ab08902b91738f1a9bc7fd61942f331d8e5e76a5df0c0b5f8c17c18bd787ee278
+Status:    valid
